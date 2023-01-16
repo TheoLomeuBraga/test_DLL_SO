@@ -11,6 +11,7 @@
             "request": "launch",
             "program": "/bin/g++",
             "args": [
+                "-I${workspaceFolder}/src",
                 "-g", 
                 "${file}", 
                 "-o", 
